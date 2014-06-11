@@ -23,4 +23,3 @@ Get your container's IP Address:
     sudo docker inspect <container_id> | grep IPAddress | cut -d '"' -f 4
 
 Now go to `<your container's ip>:8000` in your browser
-
