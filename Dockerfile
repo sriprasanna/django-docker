@@ -1,5 +1,5 @@
 FROM ubuntu:12.10
-MAINTAINER Ken Cochrane "kencochrane@gmail.com"
+MAINTAINER Sri Prasanna "k.sriprasanna@gmail.com"
 RUN apt-get -qq update
 RUN apt-get install -y python-dev python-setuptools supervisor git-core
 RUN easy_install pip
