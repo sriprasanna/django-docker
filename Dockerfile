@@ -1,7 +1,7 @@
 FROM ubuntu:12.10
 MAINTAINER Sri Prasanna "k.sriprasanna@gmail.com"
 RUN apt-get -qq update
-RUN apt-get install -y python-dev python-setuptools supervisor git-core
+RUN apt-get install -y python-dev python-setuptools supervisor git-core curl
 RUN easy_install pip
 RUN pip install virtualenv
 RUN pip install uwsgi
